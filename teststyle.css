@@ -558,6 +558,16 @@
     
 }
 @media screen and (max-width: 670px) {
+    .hero {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .hero_card{
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 15px;
+    }
     .username_card {
         opacity: 100%;
         font-size: 20px;
@@ -594,6 +604,8 @@
     .hero_content{
         justify-content: center;
         margin-left: 0;
+        padding-right: 0;
+        width: 90%;
     }
     .instagram{
         
@@ -711,11 +723,14 @@
 @media screen and (max-width: 480px) {
     .hero_title {
         font-size: 3.5rem;
-        
+
     }
     .hero_content{
-        padding-right: 1.5rem;
-        
+        padding-right: 0;
+    }
+    .hero_card{
+        width: 100%;
+        margin: 10px auto;
     }
     .about_text{
         font-size: 1.5rem;
